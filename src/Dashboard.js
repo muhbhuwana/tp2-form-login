@@ -53,7 +53,7 @@ function Dashboard() {
     } = useIdleTimer({
         onIdle,
         onActive,
-        timeout: 1000 * 5 * 1,
+        timeout: 1000 * 30 * 1,
         promptTimeout: 0,
         events: [
             'mousemove',
